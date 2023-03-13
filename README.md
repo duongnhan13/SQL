@@ -18,7 +18,7 @@ Class ID	Rank_name	Loyalty Points
 																			
 * Lưu ý quan trọng:Điểm được tính cho mỗi giao dịch sẽ hết hạn sau 30 ngày kể từ ngày giao dịch đó được thực hiện - Thứ hạng của người dùng sẽ bị giảm hoặc tăng tương ứng với sự thay đổi của điểm khách hàng thân thiết tích lũy được.																							
 																								
-2	Kết hợp với 'lợi ích trung thành ' bảng và 'Xếp hạng mức độ trung thành'bảng, thêm cột'%hoàn lại tiền' TRONG 'giao dịch ' lập bảng và tínhtổng chi phí hoàn lại tiền vào tháng 2 năm 2022.	
+2Kết hợp với 'lợi ích trung thành ' bảng và 'Xếp hạng mức độ trung thành'bảng, thêm cột'%hoàn lại tiền' TRONG 'giao dịch ' lập bảng và tínhtổng chi phí hoàn lại tiền vào tháng 2 năm 2022.	
 Class ID	Group	%cashback
 2	cvs	5
 2	Offline Beverage	5
@@ -35,7 +35,7 @@ Class ID	Group	%cashback
 4	supermarket	5
 
 * Ghi chú : - Chi phí hoàn tiền có thể được tính bằng nhân % hoàn tiền với GMV- Người dùng chỉ được yêu cầu tối đa 10.000 VND cho mỗi giao dịch																							
-Kết hợp thêm truy xuất total refund hàng tuần và khách hàng mới , thay đổi thứ hạng hàng tuần . 
+* Kết hợp thêm truy xuất total refund hàng tuần và khách hàng mới , thay đổi thứ hạng hàng tuần . 
 
 ---
 Combine with the 'Loyalty Points' table, add a 'Loyalty Points' column in the 'Transaction' table with certain rules. Then, create another table called 'Ranking of Loyalty Level' which must include columns named 'Ranking_name' and 'Points' to calculate the ranking of each user based on a daily basis. At the end of March 2022, how many users achieved the Gold rank?
@@ -72,4 +72,4 @@ Class ID Group %cashback
 4 Supermarket 5
 
 * Note: - The refund cost can be calculated by multiplying the %cashback with the GMV. - Users are only required a maximum of 10,000 VND per transaction for cashback.
-Combine with tracking total weekly refunds and new customers, change the weekly ranking.
+* Combine with tracking total weekly refunds and new customers, change the weekly ranking.
