@@ -10,13 +10,13 @@ Coffee chains and Milk tea	1 points/1000VND GMV	500 points
 Offline Beverage	1 points/1000VND GMV	300 points
 
 Xếp hạng phải tuân theo các quy tắc/bảng dưới đây:
-	Class ID	Rank_name	Loyalty Points
-	1	STANDARD	1 - 999 points
-	2	SILVER	1000 - 1999 points
-	3	GOLD	2000 - 4999 points
-	4	DIAMOND	>= 5000 points
+Class ID	Rank_name	Loyalty Points
+1	STANDARD	1 - 999 points
+2	SILVER	1000 - 1999 points
+3	GOLD	2000 - 4999 points
+4	DIAMOND	>= 5000 points
 																			
-	 * Lưu ý quan trọng:Điểm được tính cho mỗi giao dịch sẽ hết hạn sau 30 ngày kể từ ngày giao dịch đó được thực hiện - Thứ hạng của người dùng sẽ bị giảm hoặc tăng tương ứng với sự thay đổi của điểm khách hàng thân thiết tích lũy được.																							
+* Lưu ý quan trọng:Điểm được tính cho mỗi giao dịch sẽ hết hạn sau 30 ngày kể từ ngày giao dịch đó được thực hiện - Thứ hạng của người dùng sẽ bị giảm hoặc tăng tương ứng với sự thay đổi của điểm khách hàng thân thiết tích lũy được.																							
 																								
 2	Kết hợp với 'lợi ích trung thành ' bảng và 'Xếp hạng mức độ trung thành'bảng, thêm cột'%hoàn lại tiền' TRONG 'giao dịch ' lập bảng và tínhtổng chi phí hoàn lại tiền vào tháng 2 năm 2022.	
 Class ID	Group	%cashback
@@ -34,7 +34,7 @@ Class ID	Group	%cashback
 4	marketplace	5
 4	supermarket	5
 
-	* Ghi chú : - Chi phí hoàn tiền có thể được tính bằng nhân % hoàn tiền với GMV- Người dùng chỉ được yêu cầu tối đa 10.000 VND cho mỗi giao dịch																							
+* Ghi chú : - Chi phí hoàn tiền có thể được tính bằng nhân % hoàn tiền với GMV- Người dùng chỉ được yêu cầu tối đa 10.000 VND cho mỗi giao dịch																							
 Kết hợp thêm truy xuất total refund hàng tuần và khách hàng mới , thay đổi thứ hạng hàng tuần . 
 
 ---
@@ -57,8 +57,8 @@ Class ID Rank_name Loyalty Points
 2. Combine with the 'Loyalty Benefits' table and the 'Ranking of Loyalty Level' table, add a '%cashback' column in the 'Transaction' table and calculate the total refund cost in February 2022.
 
 Class ID Group %cashback
-2 CVS 5
-2 Offline Beverage 5
+2 	CVS 	5
+2 	Offline Beverage 5
 2 Data 5
 3 CVS 7
 3 Offline Beverage 7
