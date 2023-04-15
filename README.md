@@ -1,6 +1,6 @@
 # SQL 
 ## MOMO CASE : 
-1	Kết hợp với 'Điểm trung thành' bảng, thêm một cột 'Điểm trung thành'trong bảng 'Giao dịch' với các quy tắc nhất định. Sau đó, tạo một bảng khác có tên 'Xếp hạng mức độ trung thành' trong đó phải bao gồm các cột có tênXếp hạng_tên VàTính_điểm để tính Xếp hạng của mỗi người dùng trên cơ sở hàng ngày. Vào cuối tháng 3 năm 2022, có bao nhiêu người dùng đạt được thứ hạng Vàng?
+	Kết hợp với 'Điểm trung thành' bảng, thêm một cột 'Điểm trung thành'trong bảng 'Giao dịch' với các quy tắc nhất định. Sau đó, tạo một bảng khác có tên 'Xếp hạng mức độ trung thành' trong đó phải bao gồm các cột có tênXếp hạng_tên VàTính_điểm để tính Xếp hạng của mỗi người dùng trên cơ sở hàng ngày. Vào cuối tháng 3 năm 2022, có bao nhiêu người dùng đạt được thứ hạng Vàng?
 
 supermarket	1 points/1000VND GMV	500 points
 data	10 points/1000VND GMV	1000 points
@@ -16,9 +16,9 @@ Class ID	Rank_name	Loyalty Points
 3	GOLD	2000 - 4999 points
 4	DIAMOND	>= 5000 points
 																			
-* Lưu ý quan trọng:Điểm được tính cho mỗi giao dịch sẽ hết hạn sau 30 ngày kể từ ngày giao dịch đó được thực hiện - Thứ hạng của người dùng sẽ bị giảm hoặc tăng tương ứng với sự thay đổi của điểm khách hàng thân thiết tích lũy được.																							
+* Điểm được tính cho mỗi giao dịch sẽ hết hạn sau 30 ngày kể từ ngày giao dịch đó được thực hiện - Thứ hạng của người dùng sẽ bị giảm hoặc tăng tương ứng với sự thay đổi của điểm khách hàng thân thiết tích lũy được.																							
 																								
-2Kết hợp với 'lợi ích trung thành ' bảng và 'Xếp hạng mức độ trung thành'bảng, thêm cột'%hoàn lại tiền' TRONG 'giao dịch ' lập bảng và tínhtổng chi phí hoàn lại tiền vào tháng 2 năm 2022.	
+Kết hợp với 'lợi ích trung thành ' bảng và 'Xếp hạng mức độ trung thành'bảng, thêm cột'%hoàn lại tiền' TRONG 'giao dịch ' lập bảng và tínhtổng chi phí hoàn lại tiền vào tháng 2 năm 2022.	
 Class ID	Group	%cashback
 2	cvs	5
 2	Offline Beverage	5
